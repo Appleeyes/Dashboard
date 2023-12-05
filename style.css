@@ -243,8 +243,55 @@ body{
   padding: 30px;
 }
 
+#part-1 .second-container{
+  position: relative;
+}
 
 #part-1 video{
   width: 800px;
   border-radius: 15px;
+}
+
+#part-1 .video-actions{
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#part-1 .control{
+  background-color: hsl(0, 0%, 0%, 0.8);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  position: absolute;
+  bottom: 24rem;
+  right: -350px;
+  width: 300px;
+}
+
+#part-1 .control i,
+#part-1 .controls i{
+  margin-right: 10px;
+  color: hsl(0, 0%, 100%, 0.6);
+  font-size: 20px;
+}
+
+#part-1 .control p,
+#part-1 .controls p{
+  margin-right: 20px;
+  font-size: 20px;
+  color: hsl(0, 0%, 100%, 0.7);
+}
+
+#part-1 .controls{
+  background-color: hsl(0, 0%, 0%, 0.5);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 450px;
+  width: 330px;
 }
