@@ -35,7 +35,7 @@ body{
 
 #dashboard aside li{
   list-style-type: none;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   text-align: center;
 }
 
@@ -49,13 +49,12 @@ body{
   transition: 0.3s ease;
 }
 
-#dashboard aside i{
-    
+#dashboard aside i{   
     margin-bottom: 10px;
 }
 
 #dashboard aside h5{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 #dashboard aside li:hover {
@@ -192,11 +191,7 @@ body{
   color: #fff;
   display: flex;
   justify-content: space-between;
-  border-radius: 20px;
-}
-
-#part-1 .card .title{
-  /* font-size: 15px; */
+  border-radius: 10px;
 }
 
 #part-1 .card .number{
@@ -294,4 +289,119 @@ body{
   bottom: 1.5rem;
   left: 450px;
   width: 330px;
+}
+
+#part-2{
+  display: grid;
+  grid-template-columns: 25rem auto;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+#part-2 .code{
+  margin-top: 20px;
+}
+
+#part-2 .code img{
+  border: 1px solid rgb(209, 201, 201, 0.4);
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+#part-2 .code p{
+  margin-top: 10px;
+  word-spacing: 5px;
+  line-height: 20px;
+}
+
+#part-2 .second-container {
+  margin-top: 20px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.1), 2px 0 0 rgba(0, 0, 0, 0.1), -2px 0 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+#part-2 .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  
+}
+
+#part-2 .container p {
+  margin: 5px 0;
+  font-weight: 900;
+  padding: 10px;
+}
+
+#part-2 .container .view .fa-list{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #3B7D62;
+}
+
+#part-2 .container .view{
+  color: hsla(0, 2%, 32%, 0.8);
+}
+
+#part-2 .container .rows{
+  color: hsla(0, 2%, 32%, 0.8);
+}
+
+#part-2 .container .sort{
+  color: hsla(0, 2%, 32%, 0.8);
+  border-bottom: 2px solid #ddd;
+}
+
+#part-2 .container .sort i{
+  margin-left: 20px;
+}
+
+#part-2 .container .sort span{
+  margin-right: 50px;
+}
+
+#part-2 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#part-2 th, #part-2 td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+
+#part-2 tbody tr:last-child td {
+  border-bottom: none;
+}
+
+#part-2 tbody td{
+  color: hsla(0, 2%, 32%, 0.8);
+}
+
+#part-2 tbody td p{
+  background-color: #3e2e22;
+  padding: 15px;
+  text-align: center;
+}
+
+#part-2 tbody td p span{
+  background-color: #fffbe4;
+  padding: 8px 25px;
+}
+
+#part-2 button {
+  background-color: #3B7D62;
+  color: #fff;
+  padding: 10px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+#part-2 button i{
+  margin-left: 10px;
 }
