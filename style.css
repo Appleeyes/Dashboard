@@ -6,6 +6,7 @@
 
 body{
   background-color: #f5f6f7;
+  margin-right: 50px;
 }
 
 #dashboard{
@@ -14,9 +15,8 @@ body{
 
 #dashboard .dashboard-container{
   display: grid;
-  grid-template-columns: 14rem auto;
+  grid-template-columns: 10rem auto;
   gap: 1rem;
-  /* padding: 2rem; */
   margin-bottom: 5rem;
 }
 
@@ -104,13 +104,16 @@ body{
 
 #header .content-2,
 #header .content-3{
-    margin-right: 50px;
     background-color: #3B7D62;
     padding-top: 10px;
     padding-left: 15px;
     padding-right: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+#header .content-2{
+  margin-right: 50px;
 }
 
 #header .content-3 h5{
@@ -185,28 +188,63 @@ body{
   gap: 20px;
 }
 
+#part-1 .card{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+#part-1 .card .title{
+  /* font-size: 15px; */
+}
+
+#part-1 .card .number{
+  font-size: 22px;
+  font-weight: 900;
+}
+
+#part-1 .card .increase{
+  margin-top: 30px;
+}
+
+#part-1 .card i{
+  margin-top: 30px;
+  font-size: 50px;
+  color: hsl(0, 0%, 100%, 0.4);
+}
+
+#part-1 .card-2 .car-1 { 
+  margin-right: -25px;
+}
+
+#part-1 .card .fa-video{
+    transform: rotate(170deg);
+    margin-bottom: 30px;
+}
+
 #part-1 .card-1{
   background: linear-gradient(to right, #009D8F, #00C077);
-  padding: 50px;
+  padding: 30px;
 }
 
 #part-1 .card-2{
   background: linear-gradient(to right, #FF6914, #FFAF00);
-  padding: 50px;
+  padding: 30px;
 }
 
 #part-1 .card-3{
   background: linear-gradient(to right, #5282C6, #00B6E4);
-  padding: 50px;
+  padding: 30px;
 }
 
 #part-1 .card-4{
   background: linear-gradient(to right, #E2002C, #980033);
-  padding: 50px;
+  padding: 30px;
 }
 
 
 #part-1 video{
-  width: 550px;
-  align-self: stretch;
+  width: 800px;
+  border-radius: 15px;
 }
